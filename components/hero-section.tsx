@@ -24,19 +24,25 @@ export function HeroSection({ onGetQuote }: { onGetQuote: () => void }) {
       </div>
 
       {/* Hero content */}
-      <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-1 items-center px-4 py-6 sm:px-6 sm:py-0 lg:px-8 -mt-4 sm:-mt-8">
+      <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-1 flex-col justify-between px-4 py-6 sm:px-6 sm:py-0 lg:px-8 -mt-4 sm:-mt-8">
         <div className="max-w-2xl">
-          <h1 className="mb-3 sm:mb-5 text-[60px] font-semibold leading-tight text-white sm:text-[80px]" style={{ fontFamily: '"Oswald", sans-serif' }}>
+          {/* Main headline at top */}
+          <h1 className="text-[60px] font-semibold leading-tight text-white sm:text-[80px]" style={{ fontFamily: '"Oswald", sans-serif' }}>
             Cantilever Package.
-            <br />
-            <br />
-            $8,300 Flat.
           </h1>
-          <p className="mb-5 sm:mb-8 text-[33px] sm:text-[38px] lg:text-[42px] font-bold leading-tight text-white/90" style={{ fontFamily: '"Oswald", sans-serif' }}>
+        </div>
+        
+        {/* Spacer to show background image */}
+        <div className="flex-1 min-h-[80px] sm:min-h-[120px]" />
+        
+        {/* Price, subheadline, and button grouped together at bottom */}
+        <div className="max-w-2xl">
+          <p className="mb-2 sm:mb-3 text-[60px] font-semibold leading-tight text-white sm:text-[80px]" style={{ fontFamily: '"Oswald", sans-serif' }}>
+            $8,300 Flat.
+          </p>
+          <p className="mb-4 sm:mb-6 text-[33px] sm:text-[38px] lg:text-[42px] font-bold leading-tight text-white/90" style={{ fontFamily: '"Oswald", sans-serif' }}>
             Custom Patio Covers <span className="underline decoration-amber-500 underline-offset-4">Designed</span> to Impress.
           </p>
-          {/* Empty spacer to show more background */}
-          <div className="mb-5 sm:mb-8 h-8 sm:h-10" />
           <Button
             onClick={onGetQuote}
             size="lg"
@@ -44,7 +50,6 @@ export function HeroSection({ onGetQuote }: { onGetQuote: () => void }) {
           >
             GET OUR CANTILEVER PACKAGE
           </Button>
-
         </div>
       </div>
 
