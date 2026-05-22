@@ -202,7 +202,7 @@ export function QuoteForm() {
             Takes less than 19 seconds
           </div>
           <h2 className="text-3xl font-bold text-white sm:text-4xl text-balance" style={{...playfairStyle, fontSize: "45px"}}>
-            Get Our 8.5K Offer
+            Cantilever Style Package - $8,300 Offer
           </h2>
           <p className="mt-3 text-white/60">No pressure. No obligation.{"\n\n"}Most Homes Qualify for This Offer - Let&apos;s See If Yours Does Too!</p>
         </div>
