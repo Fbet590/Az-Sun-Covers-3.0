@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Playfair_Display, Montserrat, Poppins } from 'next/font/google'
+import { Inter, Playfair_Display, Montserrat, Poppins, Source_Sans_3, Raleway, Work_Sans, DM_Sans, Rubik, Lora, PT_Sans, Karla, Manrope, Merriweather, Oswald } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import Script from 'next/script'
 import './globals.css'
@@ -15,6 +15,17 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat", weight: ["700", "800", "900"] });
 const poppins = Poppins({ subsets: ["latin"], variable: "--font-poppins", weight: ["400", "500", "600", "700", "800"] });
+const oswald = Oswald({ subsets: ["latin"], variable: "--font-oswald" });
+const sourceSans3 = Source_Sans_3({ subsets: ["latin"], variable: "--font-source-sans-3" });
+const raleway = Raleway({ subsets: ["latin"], variable: "--font-raleway" });
+const workSans = Work_Sans({ subsets: ["latin"], variable: "--font-work-sans" });
+const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans" });
+const rubik = Rubik({ subsets: ["latin"], variable: "--font-rubik" });
+const lora = Lora({ subsets: ["latin"], variable: "--font-lora" });
+const ptSans = PT_Sans({ subsets: ["latin"], variable: "--font-pt-sans", weight: ["400", "700"] });
+const karla = Karla({ subsets: ["latin"], variable: "--font-karla" });
+const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope" });
+const merriweather = Merriweather({ subsets: ["latin"], variable: "--font-merriweather", weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: 'AZ Sun Covers LLC - Custom Patio Covers',
@@ -86,7 +97,7 @@ export default function RootLayout({
           />
         )}
       </head>
-      <body className={`${inter.variable} ${playfair.variable} ${montserrat.variable} ${poppins.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} ${playfair.variable} ${montserrat.variable} ${poppins.variable} ${sourceSans3.variable} ${raleway.variable} ${workSans.variable} ${dmSans.variable} ${rubik.variable} ${lora.variable} ${ptSans.variable} ${karla.variable} ${manrope.variable} ${merriweather.variable} ${oswald.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>
