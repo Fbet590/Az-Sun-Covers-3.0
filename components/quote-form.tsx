@@ -156,20 +156,7 @@ export function QuoteForm() {
     setSubmitting(true)
     setError("")
     try {
-      const payload = {
-        name: textInputs.name || "",
-        email: textInputs.email || "",
-        phone: textInputs.phone || "",
-      }
-      const res = await fetch("/api/send-lead", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      })
-      if (!res.ok) {
-        const data = await res.json()
-        throw new Error(data.error || "Something went wrong")
-      }
+      // Track Facebook Pixel Lead event
       if (typeof window !== "undefined" && typeof (window as any).fbq === "function") {
         (window as any).fbq("track", "Lead")
       }
