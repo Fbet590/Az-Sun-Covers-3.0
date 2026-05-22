@@ -17,9 +17,9 @@ export function HeroSection({ onGetQuote }: { onGetQuote: () => void }) {
       <div className="absolute inset-0 bg-gradient-to-r from-[#1a1207]/85 via-[#1a1207]/60 to-transparent" />
 
       {/* Top-left logo text */}
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pt-8 sm:px-6 lg:px-8">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pt-16 sm:pt-8 sm:px-6 lg:px-8">
         <p className="text-base font-bold uppercase tracking-widest text-white sm:text-lg">
-          ESSENTIAL PACKAGE
+          AZ SUN COVERS
         </p>
       </div>
 
@@ -35,15 +35,14 @@ export function HeroSection({ onGetQuote }: { onGetQuote: () => void }) {
           <p className="mb-5 sm:mb-8 text-[33px] sm:text-[38px] lg:text-[42px] font-bold leading-tight text-white/90" style={{ fontFamily: '"Oswald", sans-serif' }}>
             Custom Patio Covers <span className="underline decoration-amber-500 underline-offset-4">Designed</span> to Impress.
           </p>
-          <p className="mb-5 sm:mb-8 text-lg leading-relaxed text-white/70 sm:text-xl lg:text-2xl" style={{ fontFamily: '"Oswald", sans-serif' }}>
-            Patio Covers That Turn Ordinary Backyards Into Luxury Retreats
-          </p>
+          {/* Empty spacer to show more background */}
+          <div className="mb-5 sm:mb-8 h-8 sm:h-10" />
           <Button
             onClick={onGetQuote}
             size="lg"
             className="h-12 rounded-lg bg-amber-600 px-8 text-base font-semibold text-white hover:bg-amber-700 sm:h-14 sm:px-10 sm:text-lg"
           >
-            GET OUR 8.5K OFFER
+            GET OUR CANTILEVER PACKAGE
           </Button>
 
         </div>
