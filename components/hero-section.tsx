@@ -26,13 +26,16 @@ export function HeroSection({ onGetQuote }: { onGetQuote: () => void }) {
       {/* Hero content */}
       <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-1 items-center px-4 py-6 sm:px-6 sm:py-0 lg:px-8 -mt-4 sm:-mt-8">
         <div className="max-w-2xl">
-          <h1 className="mb-3 sm:mb-5 text-[60px] font-bold leading-tight text-white sm:text-[80px]" style={{ fontFamily: "var(--font-poppins), sans-serif" }}>
-            Grab Our 8.5k Flat Offer.
+          <h1 className="mb-3 sm:mb-5 text-[60px] font-semibold leading-tight text-white sm:text-[80px]" style={{ fontFamily: '"Oswald", sans-serif' }}>
+            Cantilever Package.
+            <br />
+            <br />
+            $8,300 Flat.
           </h1>
-          <p className="mb-5 sm:mb-8 text-[33px] sm:text-[38px] lg:text-[42px] font-bold leading-tight text-white/90" style={{ fontFamily: "var(--font-poppins), sans-serif" }}>
+          <p className="mb-5 sm:mb-8 text-[33px] sm:text-[38px] lg:text-[42px] font-bold leading-tight text-white/90" style={{ fontFamily: '"Oswald", sans-serif' }}>
             Custom Patio Covers <span className="underline decoration-amber-500 underline-offset-4">Designed</span> to Impress.
           </p>
-          <p className="mb-5 sm:mb-8 text-lg leading-relaxed text-white/70 sm:text-xl lg:text-2xl">
+          <p className="mb-5 sm:mb-8 text-lg leading-relaxed text-white/70 sm:text-xl lg:text-2xl" style={{ fontFamily: '"Oswald", sans-serif' }}>
             Patio Covers That Turn Ordinary Backyards Into Luxury Retreats
           </p>
           <Button
