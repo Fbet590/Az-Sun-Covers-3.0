@@ -15,6 +15,19 @@ const PROJECTS = [
   { src: "/images/gallery-8.jpg", alt: "Brown lattice sun cover viewed from underneath" },
   { src: "/images/gallery-9.jpg", alt: "Dark lattice sun cover with shadow patterns on turf" },
   { src: "/images/gallery-10.jpg", alt: "Dark gray freestanding lattice pergola on pavers" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/620451229_18097240052494359_9104924487855446228_n-nfZxAUeVvsG8NKZdMwpR4Sp729yVZy.jpg", alt: "White solid patio cover with louvered privacy wall over turf and paver backyard" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/605904172_18094585016494359_2863394204829172646_n-tXN6YANHVURS5oz2Q3EHQ6oGZ3hwE9.jpg", alt: "Dark modern louvered pergola at dusk with white block walls and turf" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/605904169_18094585007494359_5876347638347139777_n-swILUumwPXzCvSTUgIWK9hV37HFeGx.jpg", alt: "Aerial view of backyard with dark louvered pergola, pavers, and turf" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/620409373_18097240079494359_5513927486353361083_n-yTGueA2hxiBw3KoMCPXy2iEXpE9j2l.jpg", alt: "White attached patio cover with louvered wall over large turf yard" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/513489069_18073619204494359_6678559485540980421_n-PZZvJ01cWVpmCABioUD4rvTx0KvGBK.jpg", alt: "Aerial view of backyard with white patio cover, pavers, and string lights" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/605985192_18094584977494359_7429041825270019903_n-XqWQgbIGivmk8oDjZgQamODeikdzP7.jpg", alt: "Dusk view of white pergola with louvered wall and paver walkway" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/651371380_18103184576494359_2087230699680866188_n-9irdhSX7aZGdNWMLj3oetCnPLCj5p6.jpg", alt: "White attached patio cover with paver stepping-stone path through turf" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/607221145_18094584959494359_1782656086283699737_n%28792%29-7qhZCC5b9DvWXcmj47vt4Qe9QNfTMV.jpg", alt: "Dark gray freestanding louvered pergola at dusk with landscape lighting" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/620411470_18097240007494359_4464836072478560666_n%28997%29-6iokNZn8uNl0J1lVNyDzIbRpNvZCDq.jpg", alt: "Symmetrical view of white patio cover with paver stepping-stone path" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/608228298_18094584974494359_6638459488127035030_n-q6QX3ojCNCQQ8UsGh9oi2dxHyRnMyb.jpg", alt: "Dusk view of dark pergola with curving stepping-stone path through turf" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/513492822_18073619216494359_3862028397811590176_n-uBbtlMdvG2YSQC0cGRG0yPKpYMs2GL.jpg", alt: "Bronze solid patio cover with louvered wall over paver patio" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/604827609_18094585025494359_2108981316619141228_n-3DFOOQtFL4OixHX3k2cIMYYJd9W4CV.jpg", alt: "Evening view from under black louvered pergola facing stucco home" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/653642653_18103184567494359_1761500582800218594_n%28698%29-q8uw9pC9wIbSiDyO8xItVsFPO1TQTZ.jpg", alt: "White patio cover with desert gravel landscaping and turf under blue sky" },
 ]
 
 const poppinsStyle = { fontFamily: "var(--font-poppins), Poppins, sans-serif" }
