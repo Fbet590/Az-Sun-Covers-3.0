@@ -19,7 +19,7 @@ export function HeroSection({ onGetQuote }: { onGetQuote: () => void }) {
       {/* Top-left logo text */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pt-16 sm:pt-8 sm:px-6 lg:px-8">
         <p className="text-base font-bold uppercase tracking-widest text-white sm:text-lg">
-          AZ SUN COVERS
+          TOP Tier SUN COVERS
         </p>
       </div>
 
@@ -69,7 +69,7 @@ export function HeroSection({ onGetQuote }: { onGetQuote: () => void }) {
             <span className="text-sm font-semibold uppercase tracking-wide text-white">Insured</span>
           </div>
         </div>
-        <p className="mt-2 text-center text-[13px] uppercase tracking-wider text-white/50">R.O.C. 345996</p>
+        <p className="mt-2 text-center text-[13px] uppercase tracking-wider text-white/50">R.O.C. 355730</p>
       </div>
     </section>
   )
